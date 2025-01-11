@@ -59,7 +59,7 @@ void p152(void *in, void *out) {
     memcpy(out, input, 64);
 }
 
-#if 0  // Set to 1 while testing and 0 for submission
+#ifdef MAIN  // Set to 1 while testing and 0 for submission
 
 #include <stdio.h>
 

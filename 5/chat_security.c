@@ -53,7 +53,7 @@ void chat_decrypt(void *k, void *ct, int ctlen, void *pt) {
         EVP_CIPHER_CTX_free(ctx);
 }
 
-#if 0
+#ifdef MAIN
 #include <stdio.h>
 
 const int NUMBER_OF_TESTS = 10000;

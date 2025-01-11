@@ -40,7 +40,7 @@ void mix(uint32_t *ap, uint32_t *bp, uint32_t *cp, uint32_t *dp) {
     *dp = d;
 }
 
-#if 0  // Set to 1 while testing and 0 for submission
+#ifdef MAIN  // Set to 1 while testing and 0 for submission
 
 #include <stdio.h>
 

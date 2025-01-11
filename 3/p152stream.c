@@ -110,7 +110,7 @@ void p152stream(void *k, void *n, void *inbuf, void *outbuf, int nbytes) {
     }
 }
 
-#if 0  // Set to 1 while testing and 0 for submission
+#ifdef MAIN  // Set to 1 while testing and 0 for submission
 
 #include <stdio.h>
 
