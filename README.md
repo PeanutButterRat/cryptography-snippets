@@ -17,15 +17,21 @@ Most submissions require [OpenSSL](https://openssl-library.org/) to compile corr
 
 ```bash
 # Compiling Program 3 (Week 5).
-sudo apt update && sudo apt install libssl-dev  # Install OpenSSL.
 
-git clone https://github.com/PeanutButterRat/cryptography-snippets  # Clone the repo.
+# Install OpenSSL.
+sudo apt update && sudo apt install libssl-dev
 
-cd cryptography-snippets/3  # Change to the Program 3 directory.
+# Clone the repo.
+git clone https://github.com/PeanutButterRat/cryptography-snippets
 
-gcc -DMAIN -o chat_security chat_security.c -lcrypto -lssl  # Compile and link against OpenSSL.
+# Change to the Program 3 directory.
+cd cryptography-snippets/3
 
-./chat_security  # Run Program 3.
+# Compile and link against OpenSSL.
+gcc -DMAIN -o chat_security chat_security.c -lcrypto -lssl
+
+# Run Program 3.
+./chat_security
 ```
 
 ## License
