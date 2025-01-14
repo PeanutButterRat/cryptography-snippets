@@ -37,3 +37,6 @@ gcc -DMAIN -o chat_security chat_security.c -lcrypto -lssl
 ## License
 
 Distributed under the [MIT License](https://choosealicense.com/licenses/mit/). See `LICENSE.txt` for more information.
+
+Uploaded with permission from Dr. Krovetz (tdk@csus.edu).
+
